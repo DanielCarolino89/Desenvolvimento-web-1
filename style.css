@@ -1,0 +1,31 @@
+h1{color:rgb(111, 0, 255);
+
+  text-align:center;
+
+  border-bottom:1px dashed rgba(0,0,255,08);
+
+   width: 300px;
+
+   margin: 50px;
+
+   padding: 10px;
+
+   background-color:rgb(249,212,35,0.5);
+
+   border-radius :20px;
+
+   box-shadow: 5px 5px rgba(0,0,0,0.5);
+
+    }
+
+    p {
+
+        color:rgb(225,78,80);
+
+        font-size: 1.5em;
+
+        text-align: justify;
+
+        text-indent: 1.0em;
+
+    }
