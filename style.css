@@ -1,41 +1,109 @@
+:root{
+    --amarelo:#edde45;
+    --vermelho:#ff0000;
+    --verde:#09f700;
+    --azul:#005bff;
+    --branco:#ffff;
+    --preto:#0000;
 
- h2{color:rgb(111, 0, 255);
-  text-align:center;
-  border-bottom:1px dashed rgba(0,0,255,08);
-   width: 300px;
-   margin: 50px;
-   padding: 10px;
-   background-color:rgb(136, 245, 160);
-   border-radius :20px;
-   box-shadow: 5px 5px rgba(0,0,0,0.5);
-    }
-    p {
-        color:rgb(243, 38, 2);
-        font-size: 1.5em;
-        text-align: justify;
-        text-indent: 1.0em;
-    }
-
-
-body {
-background-color:rgb(236, 1, 1);  
 }
 
-p{text-align:center;}
+.txtAmarelo{color:var(--amarelo);}
 
-h3{font-size: 3em;}
-  
-li{font-size: 2em;}
+body{
+    background-color: bisque;
+}
 
-h4 {font-size: 3em;}
-h4{color:black;
+header, footer{
+    width: auto;
+    background: rgba(196, 57, 57, 0.5);
+    height: 50px;
+    line-height: 3em;
+}
+
+header{
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 110px;
+}
+
+footer{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+header h1, footer h1{
     text-align:center;
-  border-bottom:1px dashed rgba(0,0,255,08);
-   width: 300px;
-   margin: 50px;
-   padding: 10px;
-   background-color:rgb(245, 234, 136);
-   border-radius :20px;
-   box-shadow: 5px 5px rgba(111,0,255);
+    text-shadow: 1px 1px black;
 }
 
+article{
+    margin-top: 10px;
+    width: 40%;
+    border: 1px dashed black;
+    height: 400px;
+    margin-left: 5%;
+    position: relative;
+    float:left;
+}
+.bgBranco   {background-color:var(--branco)}
+.bgAmarelo  {background-color:var(--amarelo);}
+.bgAzul     {background-color:var(--azul);}
+.bgVermelho {background-color:var(--vermelho);}
+.bgVerde    {background-color: var(--verde);}
+.bgPreto    {background-color: var(--preto);}
+.bgGradient1 {background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);}
+.bgGradient2 {background-image: linear-gradient(20deg, #D9AFD9 0%, #97D9E1 100%);}
+.bgGradient3 {background-image: linear-gradient(40deg, #D9AFD9 0%, #97D9E1 100%);}
+.bgGradient4 {background-image: linear-gradient(60deg, #D9AFD9 0%, #97D9E1 100%);}
+
+
+.txtBranco  {color: var(--branco);}
+.txtAmarelo {color: var(--amarelo);}
+.txtAzul    {color: var(--azul);}
+.txtVermelho{color:var(--vermelho);}
+.txtVerde   {color: var(--verde);}
+.txtPreto   {color: var(--preto);
+            font-weight: bold;
+            font-size: 30px;
+            font-family: 'lora', serif;}
+
+.borda-0    {border: none;}
+.borda-1    {border: 1px;}
+.borda-2    {border: 2px;}
+.borda-3    {border: 3px;}
+.borda-r0   {border-radius: 0px;}
+.borda-r5   {border-radius: 5px;}
+.borda-r10  {border-radius: 10px;}
+.borda-r20  {border-radius: 20px;}
+
+
+.bordaBranca    {border-color:var(--branco)}
+.bordaAmarelo   {border-color:var(--amarelo);}
+.bordaAzul      {border-color: var(--azul)}
+.bordaVermelho  {border-color:var(--vermelho);}
+.bordaVerde     {border-color:var(--verde);}
+.bordaPreto     {border-color:var(--preto);}
+
+.moveimg {
+    float: left;
+    position: relative;
+    display: block;
+    width: 135px;
+    height: 135px;
+    background-image: url(../Objetos/emogi.png);
+    text-indent: -9999px;
+    margin: 50px 50px 50px 50px;
+
+}
+
+.imagfeliz{
+    background-image: url(../_img/feliz.jpg);
+}
+
+.imagassustado{
+    background-image: url(../_img/assustado.jpg);
+}
+.moveimg:hover {
+    background-position: -210px
+}
