@@ -1,0 +1,124 @@
+h2 {
+    color: darkgreen;
+    text-align: center;
+    border-bottom: 3px outset darkgreen;
+    width: 800px;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(228, 226, 222);
+    border-radius: 2em 0;
+    font-weight: absolute;
+}
+
+
+h3 {
+    color: darkorange;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: rgb(243, 38, 2);
+    font-size: 24px;
+    text-align: center;
+    text-indent: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+body {
+    background-color: rgb(216, 248, 213);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    margin: 0 auto;
+    border: 2px solid green;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    margin: 0 auto;
+
+
+}
+
+.fruta {
+    height: 400px;
+    width: 1000px
+}
+
+.kitanda {
+    height: 400px;
+    width: 1500px
+}
+
+.moto {
+    height: 325px;
+    width: 500px
+}
+
+.seta {
+    height: 100px;
+    width: 300px
+}
+
+.imgv {
+    height: 400px;
+    width: 1000px
+}
+
+.imgl {
+    height: 400px;
+    width: 1000px
+}
+
+.imgf {
+    height: 400px;
+    width: 1000px
+}
+
+table {
+
+    border: 12px solid darkgreen;
+    border-radius: 8px;
+    text-align: center;
+    width: 800px;
+    margin: 50px;
+    padding: 10px;
+
+}
+
+td {
+    background: whitesmoke;
+    color: darkgreen;
+    font-size: 24px;
+    text-align: center;
+    text-indent: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+
+th {
+    background: whitesmoke;
+    color: darkorange;
+    font-size: 24px;
+    text-align: center;
+    text-indent: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+
+tr,
+thead {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
